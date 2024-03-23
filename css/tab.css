@@ -1,0 +1,160 @@
+@media all and (max-width:860px) and (min-width:541px){
+
+    html,body{
+        font-size: 14px;
+    }
+
+    .page4{
+        /* background-color: aquamarine; */
+        padding-top: 6vh;
+        box-sizing: border-box;
+        height: 80vh;
+    }
+    .category_wrap{
+        margin: 0 auto;
+        width: 75%;
+        display: flex;
+        justify-content: space-between;
+        /* background-color: brown; */
+    }
+    .category{
+        width: 70px;
+        height: 70px;
+        background-color: #ffc029;
+        border-radius: 15px;
+        text-align: center;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+    .category_name{
+        font-weight: 700;
+        font-size: 1.2rem;
+        margin-top: 2vh;
+    }
+    .news_n_event_bottom{
+        /* background-color: cadetblue; */
+        width: 98%;
+        height: 45vh;
+        margin: 0 auto;
+        margin-top: 11vh;
+    }
+    .news_mask{
+        float: left;
+        width: 65%;
+        height: 45vh;
+        background-color: #ffc029;
+        border-radius: 20px;
+    }
+    .event{
+        float: right;
+        width: 33%;
+        height: 45vh;
+        background-color: #ffc029;
+        border-radius: 20px;
+    }
+    
+    /* page5 */
+    
+    .page5{
+        /* background-color: #dcbb6c58; */
+        height: 85vh;
+    }
+    .title_text{
+        text-align: center;
+        font-size: 2.3rem;
+        font-weight: 900;
+        color: black;
+    }
+    .best_item_wrap{
+        /* background-color: rgb(137, 137, 214); */
+        width: 98%;
+        height: 40vh;
+        margin: 0 auto;
+        margin-top: 8vh;
+        display: flex;
+        justify-content: space-between;
+    }
+    .best_item{
+        width: calc(100% / 3.3);
+        height: 26vw;
+        /* background-color: aqua; */
+        text-align: center;
+    }
+    .best_item img{
+        border-radius: 20px;
+    }
+    .page5_banner{
+        width: 98%;
+        height: 20vh;
+        background-color: #ffc029;
+        margin: 0 auto;
+        border-radius: 20px;
+        margin-top: 7vh;
+    }
+    .best_item_text_wrap{
+        margin-top: 1vw;
+    }
+    .sponsor{
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: #ffc029;
+    }
+    .item_name{
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    
+    .review_star,.review_text{
+        font-size: 0.9rem;
+        color: rgb(83, 83, 83);
+    }
+    
+    .price{
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    
+    
+   /* page6 */
+   .page6{
+    padding: 14vh 0 0 0;
+    box-sizing: border-box;
+}
+.review_wrap{
+    width: 100%;
+    height: 23vw;
+    /* background-color: yellowgreen; */
+    margin-top: 13vh;
+    display: flex;
+    justify-content: space-between;
+}
+.review_img{
+    width: 24vw;
+    height: 23vw;
+    border-radius: 20px;
+    background-color: black;
+}
+
+.review_img:first-child{
+    background: url(../img/review1.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.review_img:nth-child(2){
+    background: url(../img/review2.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.review_img:nth-child(3){
+    background: url(../img/review3.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.review_img:nth-child(4){
+    background: url(../img/review4.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.review_text_pc{display: none;}
+
+
+    .news_mask_mo,.review_wrap_mo{
+        display: none;
+    }
+}
