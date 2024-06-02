@@ -562,7 +562,7 @@
     position: relative;
     transform: perspective(100vw) translateX(100vw) rotateY(180deg);
     transition: transform 0.1s;
-    box-shadow: 0 4px 5px rgba(0,0,0,0.4);
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.4);
     border-radius: 1.9vw;
 }
 
@@ -651,6 +651,7 @@
         width: 35vw;
         height: 50vw;
     }
+
     .front {
         width: 100%;
         background-color: #FFF;
@@ -664,7 +665,7 @@
         background: url(../image/dodojin_front.jpg)0 0/104% no-repeat;
         position: relative;
     }
-    
+
     .front::after {
         content: " ";
         position: absolute;
@@ -675,35 +676,35 @@
         background: url(../image/dodojin_front.jpg) 0 -50.5vw /104% no-repeat;
         transition: all 0.5s;
     }
-    
+
     .card:nth-child(2) .front {
         background-image: url(../image/kkori_frontt.jpg);
     }
-    
+
     .card:nth-child(2) .front::after {
         background-image: url(../image/kkori_frontt.jpg);
     }
-    
+
     .card:nth-child(3) .front {
         background-image: url(../image/rada_front.jpg);
     }
-    
+
     .card:nth-child(3) .front::after {
         background-image: url(../image/rada_front.jpg);
     }
-    
+
     .card:nth-child(4) .front {
         background-image: url(../image/bori_front.jpg);
     }
-    
+
     .card:nth-child(4) .front::after {
         background-image: url(../image/bori_front.jpg);
     }
-    
+
     .front:hover::after {
         height: 100%;
     }
-    
+
     .back {
         width: 100%;
         transform: rotateY(180deg);
@@ -717,7 +718,7 @@
 -----------------------------------------------------------------
  */
 
- footer {
+footer {
     margin-top: 5vw;
     width: 100%;
     height: 400px;
@@ -788,13 +789,14 @@ footer .copyright {
     left: 2rem;
     color: #555;
 }
+
 /*  */
 /* 
 -----------------------------------------------------------------
             페이지 5/6/7(윤정 영역)
 -----------------------------------------------------------------
  */
- @media all and (max-width:1200px) {
+@media all and (max-width:1200px) {
 
     /* 1200이하 네비게이션 모바일버전으로 대체 */
     .hd_menu span {
@@ -909,6 +911,7 @@ footer .copyright {
         padding: 10px;
         border-radius: 14px;
     }
+
     .profile {
         width: 46px;
         height: 46px;
@@ -917,31 +920,34 @@ footer .copyright {
         margin-right: 12px;
         margin-left: 8px;
     }
+
     .talk_pop span {
         font-size: 1rem;
         font-weight: 700;
         line-height: 1.4rem;
     }
+
     .footerLogo {
         width: 160px;
         height: 16vw;
     }
+
     /* footer */
     .otherPage {
         width: 45vw;
     }
-    
+
     .otherPage a {
         font-size: 2rem;
         font-family: 'Rubik Bubbles', system-ui;
         /* padding: 1.5rem 0 0.5rem 0; box-sizing: border-box; */
         display: block;
     }
-    
+
     .otherPage>div {
         margin-left: 6vw;
     }
-    
+
     .shortCutLink {
         width: 40%;
         display: flex;
@@ -949,19 +955,19 @@ footer .copyright {
         align-items: end;
         justify-content: space-around;
     }
-    
+
     .shortCutLink a {
         font-size: 1rem;
         padding: 0.7rem 0;
     }
-    
+
     .sns_icon {
         width: 28px;
         height: 28px;
         margin-left: 1rem;
         margin: 0 auto;
     }
-    
+
     footer .copyright {
         position: absolute;
         bottom: 2rem;
@@ -1020,32 +1026,39 @@ footer .copyright {
     .move_text span {
         font-size: 8rem;
     }
-    .talk_pop{
+
+    .talk_pop {
         display: none;
     }
-    .otherPage{
+
+    .otherPage {
         width: 22%;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
     .footerLogo {
         width: 160px;
         height: 16vw;
         min-height: 70px;
     }
-    .otherPage a{
-    width: 21vw;
-    font-size: 1.8rem;
+
+    .otherPage a {
+        width: 21vw;
+        font-size: 1.8rem;
     }
+
     .otherPage>div {
         margin-left: 1rem;
         margin-top: 1rem;
     }
+
     .sns_icon {
         width: 28px;
         height: 28px;
     }
+
     .shortCutLink a {
         font-size: 1rem;
     }
@@ -1070,8 +1083,8 @@ footer .copyright {
     .category {
         width: 80px;
         height: 80px;
-        background-color: #ffc029;
-        border-radius: 15px;
+        background-color: rgba(255, 201, 53, 0.5);
+        border-radius: 53px;
         text-align: center;
         padding: 5px;
         box-sizing: border-box;
@@ -1086,35 +1099,83 @@ footer .copyright {
     .news_n_event_bottom {
         /* background-color: cadetblue; */
         width: 98%;
-        height: 65vh;
+        height: 500px;
         margin: 0 auto;
         margin-top: 10vh;
         display: flex;
+        gap: 20px;
     }
 
-    .news_but {
+    /* .news_but {
         width: 0.1px;
         height: 0.1px;
         opacity: 0;
-    }
+    } */
 
     .news_mask {
-        width: 65%;
-        height: 65vh;
-        background-color: #ffbf29;
-        border-radius: 20px;
+        width: 100%;
+        flex: 1 1 847px;
+        position: relative;
     }
 
-    .event_mask {
-        width: 30vw;
-        height: 65vh;
-        /* background-color: #ffc029; */
+    .news_content_wrap {
+        height: 100%;
         border-radius: 20px;
         overflow: hidden;
         position: relative;
     }
+    .news_textbox {
+        height: 160px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        /*  */
+        padding: 0px 40px 53px;
+        background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .4));
+        /* background: linear-gradient(to bottom,rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0) 100%); */
+        pointer-events: none;
+        /*  */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
 
-    .container {
+    .news_title {
+        font-size: 2rem;
+        color: #fff;
+    }
+
+    .news_edit {
+        display: flex;
+        margin-top: 10px;
+        align-items: center;
+        gap: 8px;
+        color: #fff;
+        font-size: 1.2rem;
+    }
+
+    .news_edit img {
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;
+    }
+
+    .event_mask {
+        width: 100%;
+        /* background-color: #ffc029; */
+        border-radius: 20px;
+        overflow: hidden;
+        position: relative;
+        flex: 1 1 269px;
+    }
+
+    .swiper {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* .container {
         width: 300%;
         height: 100%;
         position: absolute;
@@ -1122,7 +1183,7 @@ footer .copyright {
         left: 0;
         display: flex;
         flex-direction: row;
-    }
+    } */
 
     .inner_img:nth-child(1) {
         background-color: #ffbf29;

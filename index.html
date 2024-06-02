@@ -10,6 +10,15 @@
     <link rel="stylesheet" href="./css/tab.css" type="text/css">
     <link rel="stylesheet" href="./css/mo.css" type="text/css">
     <!-- <link rel="stylesheet" href="./css/font.css"> -->
+
+
+    <!-- Swifer -->
+    <link rel="stylesheet" href="./js/swiper-bundle.min.css">
+    <script src="./js/swiper-bundle.min.js"></script>
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script> -->
+
+
     <script src="./js/code.jquery.com_jquery-3.7.1.js"></script>
     <script src="./js/jquery-ui.min.js"></script>
     <script defer src="./index.js"></script>
@@ -77,16 +86,16 @@
             </div>
             <div class="talk_wrap">
                 <div class="talk_pop">
-                  <p class="hide_butt"></p>
-                  <div class="profile"></div>
-                  <p><span>카카오톡</span>
-                      <br>새로운 메세지가 도착했습니다.
-                  </p>
-              </div>  
-              </div>
+                    <p class="hide_butt"></p>
+                    <div class="profile"></div>
+                    <p><span>카카오톡</span>
+                        <br>새로운 메세지가 도착했습니다.
+                    </p>
+                </div>
+            </div>
         </div>
         <!-- 카톡알림창st : 포인핸드 최근소식지 -->
-        
+
         <!-- 좌측하단(통계) : 구조동물수/입양률/안락사 -->
         <div class="pawin_info_wrap">
             <div class="info_item style_on">
@@ -191,10 +200,21 @@
                 </div>
             </article>
             <article class="news_n_event_bottom">
-                <div class="news_but">.</div>
+                <!-- <div class="news_but">.</div> -->
                 <div class="news_mask">
+                    <div class="news_content_wrap">
+                    <a class="news_content" href="#">
+                        <img src="./image/world animal welfare day poster design_.jpeg" alt="뉴스배너 이미지">
+                        <div class="news_textbox">
+                            <p class="news_title">포인핸드 유기동물 탈옥캠페인</p>
+                            <span class="news_edit">
+                                <img src="./image/bestitem2.jpg" alt="프로필이미지">
+                                <span>우리집 해피</span>
+                            </span>
+                        </div>
+                    </a></div>
                 </div>
-                <div class="event_mask">
+                <!-- <div class="event_mask">
                     <ul class="container">
                         <li class="inner_img"><a href="#"><img src="./" alt="이벤트1"></a></li>
                         <li class="inner_img"><a href="#"><img src="./" alt="이벤트1"></a></li>
@@ -204,6 +224,29 @@
                         <div class="e_butt pre_butt"></div>
                         <div class="e_butt nxt_butt"></div>
                     </div>
+                </div> -->
+
+                <!-- Slider main container -->
+                <div class="swiper event_mask swiper-initialized swiper-horizontal swiper-backface-hidde">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide" role="group" aria-label="1 / 3" data-swiper-slide-index="0">
+                            <img src="./image/slide_event01.avif" alt="슬라이드 배너1">
+                        </div>
+                        <div class="swiper-slide" role="group" aria-label="2 / 3" data-swiper-slide-index="1">
+                            <img src="./image/slide_event02.avif" alt="슬라이드 배너2">
+                        </div>
+                        <div class="swiper-slide" role="group" aria-label="3 / 3" data-swiper-slide-index="2">
+                            <img src="./image/slide_event03.avif" alt="슬라이드 배너3">
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
             </article>
         </section>
@@ -213,7 +256,7 @@
                 <a href="#">BEST</a>
             </p>
             <article class="best_item_wrap">
-                <div class="best_item .best_item1">
+                <div class="best_item best_item1">
                     <a href="#">
                         <img src="./image/bestitem1.jpg" alt="베스트상품">
                     </a>
@@ -381,6 +424,7 @@
             </span>
         </footer>
     </div>
+
 </body>
 
 </html>
